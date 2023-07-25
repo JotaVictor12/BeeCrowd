@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+    int num, nH;
+    double valor, salario;
+    
+    printf("");
+    scanf("%i", &num);
+    printf("");
+    scanf("%i", &nH);
+    printf("");
+    scanf("%lf", &valor);
+    
+    salario = nH * valor;
+    
+    printf("NUMBER = %i\nSALARY = U$ %.2lf\n", num, salario);
+    
+ 
+    return 0;
+}
