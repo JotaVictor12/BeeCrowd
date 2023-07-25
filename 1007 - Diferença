@@ -1,0 +1,20 @@
+#include <stdio.h>
+ 
+int main() {
+    
+    int A, B, C, D, diferenca;
+    printf("");
+    scanf("%i", &A);
+    printf("");
+    scanf("%i", &B);
+    printf("");
+    scanf("%i", &C);
+    printf("");
+    scanf("%i", &D);
+    
+    diferenca = (A * B - C * D);
+    
+    printf("DIFERENCA = %i\n", diferenca);
+
+    return 0;
+}
