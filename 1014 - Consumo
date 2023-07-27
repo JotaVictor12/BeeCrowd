@@ -1,0 +1,16 @@
+#include <stdio.h>
+ 
+int main() {
+ 
+  int X;
+  double Y, cM;
+  
+  scanf("%i", &X);
+  scanf("%lf", &Y);
+  
+  cM = X/Y;
+  
+  printf("%.3lf km/l\n", cM);
+ 
+    return 0;
+}
